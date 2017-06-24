@@ -1,0 +1,38 @@
+{
+  "name": "smallmvc",
+  "version": "0.1.2",
+  "description": "Sistema MVC com poucos recursos mas muito poderoso.",
+  "main": "assets/js/boot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel devJs -d assets/js --source-maps",
+    "watch": "babel devJs -d assets/js --souce-maps --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dncrv/smlMVC.git"
+  },
+  "keywords": [
+    "mvc",
+    "js",
+    "smallmvc",
+    "framework"
+  ],
+  "author": "Daniel de Carvalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dncrv/smlMVC/issues"
+  },
+  "homepage": "https://github.com/dncrv/smlMVC#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "iconfonts": "^0.11.1",
+    "jquery": "^3.2.1",
+    "systemjs": "^0.20.14",
+    "tether": "^1.4.0"
+  }
+}
